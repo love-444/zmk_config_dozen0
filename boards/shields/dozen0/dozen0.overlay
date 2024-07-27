@@ -5,7 +5,6 @@
 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-direct";
-        diode-direction = "col2row";
         wakeup-source;
         input-gpios
             = <&pro_micro 10 (GPIO_ACTIVE_HIGH)>
